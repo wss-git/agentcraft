@@ -19,4 +19,5 @@ markdown
 beautifulsoup4
 sse_starlette
 gunicorn
-dotenv
+# dotenv
+python-dotenv

@@ -1,5 +1,4 @@
 """Main Entry"""
-import os
 import uvicorn
 import os
 try:

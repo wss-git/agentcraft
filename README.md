@@ -87,6 +87,14 @@ https://fcnext.console.aliyun.com/applications/create?template=fc-embedding-api�
 export PYTHONPATH="${PYTHONPATH}:<your project path>"
 python3 -u app/main.py
 ```
+
+> window 下如果安装依赖异常,可以尝试使用 venv 或者 conda 管理. venv 为例:  
+> python -m venv venv  
+> .\venv\Scripts\activate  
+> pip install -r requirements.txt  
+> python -u app\main.py  
+> deactivate # 退出虚拟环境
+
 ### 前端工程 agentcraft-fe
 + 配置准备：修改.env.example -> .env，将后端服务的域名填写为baseUrl的值，获得阿里云的AK,SK并填写为.env中的值（该配置在操作云资源的时候需要，如管理基础模型服务）
 + 依赖安装：
